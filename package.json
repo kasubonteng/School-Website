@@ -1,0 +1,25 @@
+{
+  "name": "school-website",
+  "version": "1.0.0",
+  "description": "webiste with allotey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --port=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasubonteng/School-Website.git"
+  },
+  "author": "Kwadwo Asubonteng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasubonteng/School-Website/issues"
+  },
+  "homepage": "https://github.com/kasubonteng/School-Website#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {}
+}
