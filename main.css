@@ -1,12 +1,82 @@
 /* 
 COLORS
 
-PRIMARY N - ##02640
+PRIMARY GREEN - #029640
 PRIMARY GOLD - #fff501
 PRIMARY RED - #b73838
+
+
 */
 
-body {
-    background-color: rgba(255, 255, 255, 0.9);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-weight: 200;
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: rgba(2, 150, 64, 0.9);
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 140px;
+  list-style-type: none;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 140px;
+  color: #fff501;
+}
+
+.navbar-link {
+  margin-left: 34px;
+}
+
+.navbar-link,
+.logo {
+  text-decoration: none;
+}
+
+.navbar-list li a {
+  color: #ffffff;
+}
+
+.navbar-link.active {
+  text-decoration: underline;
+  color: #fff501;
+}
+
+.logo:hover,
+.navbar-link:hover {
+  text-decoration: none;
+  color: #b73838;
+  transition: all 0.3s ease-in;
+}
+
+.header-img {
+    width: 100%;
+    height: 550px;
+}
